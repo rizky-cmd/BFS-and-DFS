@@ -1,4 +1,4 @@
-peta = {'A':set(['B']),
+graph = {'A':set(['B']),
         'B':set(['C','A']),
         'C':set(['H','B','I','D']),
         'D':set(['C','E','H','F']),
@@ -50,4 +50,4 @@ def dfs(graph, mulai, goal):
 awal = input("Masukan awal: ")
 tujuan = input("Masukan Akhir: ")
 
-print(dfs(peta, awal, tujuan)) #contoh kasus dari C ke L
+print(dfs(graph, awal, tujuan)) #contoh kasus dari C ke L
